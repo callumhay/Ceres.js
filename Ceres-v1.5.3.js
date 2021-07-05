@@ -4574,7 +4574,6 @@ class Ceres {
 	}
 }
 
-
 class CeresGrad {
 	constructor() {
 		this.loaded = false
