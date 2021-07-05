@@ -4457,7 +4457,7 @@ else if (typeof exports === 'object')
 
 //Ceres Helper JS
 
-export class Ceres {
+class Ceres {
 	constructor() {
 		this.loaded = false
 		this.fxn = []
@@ -4575,7 +4575,7 @@ export class Ceres {
 }
 
 
-export class CeresGrad {
+class CeresGrad {
 	constructor() {
 		this.loaded = false
 		this.fxn = []
